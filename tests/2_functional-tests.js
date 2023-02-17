@@ -37,7 +37,6 @@ suite("Functional Tests", function () {
         .request(server)
         .put("/travellers")
         .send({
-          name: "Cristoforo",
           surname: "Colombo",
         })
         .end(function (err, res) {
